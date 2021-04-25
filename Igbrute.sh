@@ -116,7 +116,7 @@ fi
 adreno()
 {
 echo -e -n "\e[34m Enter the key : "
-read row
+read -s row
 if [ $row == 68201002 ]; then
 echo "key is correct, thanks for using this tool"
 else
