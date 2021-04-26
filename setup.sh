@@ -6,6 +6,7 @@ echo -e "\e[31m
 "
 echo ""
 echo -e "wait for a while\e[0m"
+termux-setup-storage
 apt update -y > /dev/null 2>&1
 apt upgrade -y > /dev/null 2>&1
 apt install wget -y > /dev/null 2>&1
