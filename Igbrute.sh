@@ -119,7 +119,7 @@ adreno()
 {
 echo -e -n "\e[34m Enter the key : "
 read -s row
-if [ $row == 68201022 ]; then
+if [ $row == 6180414 ]; then
 echo "key is correct, thanks for using this tool"
 else
 echo "key is wrong, get key on the main page"
