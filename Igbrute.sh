@@ -16,7 +16,7 @@ sleep 3
 else
 echo "You dont have the key get the key on our web"
 sleep 3
-am start -a android.intent.action.VIEW -d https://shrinke.me/dQQ1c 2>/dev/null
+am start -a android.intent.action.VIEW -d https://igbrute-9c2aa.web.app/ 2>/dev/null
 cd /$HOME/Igbrute
 touch acs.txt
 fi
@@ -235,7 +235,7 @@ echo -e "\e[34m [2] Get stucked in ads, want solution?\e[0m"
 echo -e -n "\e[34m select an option : \e[0m"
 read go
 if [ $go == 1 ]; then
-am start -a android.intent.action.VIEW -d https://shrinke.me/dQQ1c
+am start -a android.intent.action.VIEW -d https://igbrute-9c2aa.web.app/
 cd /$HOME/Igbrute
 bash Igbrute.sh
 elif [ $go == 2 ]; then
